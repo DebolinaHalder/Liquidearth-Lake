@@ -106,21 +106,7 @@
 
             </ul>
         </li>
-        <li class="dropdown"><a href="{{route('readings.download')}}" data-toggle="dropdown" class="dropdown-toggle">Add Measurement<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a href="{{route('readings.download')}}">Download NC lake data</a></li>
-                <li><a href="{{route('readings.downloadwa')}}">Download WA lake data</a></li>
-                <li><a href="{{route('readings.downloadil')}}">Download IL lake data</a></li>
-                <li><a href="{{route('readings.downloadma')}}">Download MA lake data</a></li>
-                
-                <li><a href="{{route('readings.downloadnh')}}">Download NN lake data</a></li>
-                <li><a href="{{route('readings.downloadfr')}}">Download France lake data</a></li>
-                <li><a href="{{route('readings.downloadbd')}}">Download Bangladesh lake data</a></li>
-                <li><a href="{{route('readings.downloadall')}}">Download All lake data</a></li>
-                     
-
-            </ul>
-        </li>
+        
         
 
        <!--  <li class="nav-item-active"><a href="{{route('readings.gaugeselect')}}">Add Measurement</a></li> -->
